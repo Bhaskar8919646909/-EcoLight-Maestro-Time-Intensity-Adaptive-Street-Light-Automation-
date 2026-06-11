@@ -1,0 +1,12 @@
+void pulse(void);
+void write(char data);
+void cmd(char cmd);
+void Init_LCD(void);
+void string(char *p);
+void rev_string(char *p);
+void num(unsigned int a);
+void circlerotation(char *p);
+void numtochar(int num);
+void F32LCD(float f,unsigned int ndp);
+void cgram(unsigned char *p);
+void numtohexa(char ch);
